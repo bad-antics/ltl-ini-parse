@@ -1,0 +1,15 @@
+// ltl-ini-parse/main.ltl
+//
+// INI + properties-file parser with type coercion.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-ini-parse v0.1.0")
+    io::println("INI + properties-file parser with type coercion.")
+    0
+}
